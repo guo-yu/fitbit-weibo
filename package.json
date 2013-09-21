@@ -1,0 +1,35 @@
+{
+  "name": "fitbit-weibo",
+  "version": "0.0.0",
+  "description": "a demo app of fitbit-sdk",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/turingou/fitbit-weibo.git"
+  },
+  "keywords": [
+    "fitbit",
+    "sdk",
+    "weibo"
+  ],
+  "author": "turing",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/turingou/fitbit-weibo/issues"
+  },
+  "dependencies": {
+    "fitbit-sdk": "*",
+    "express": "*",
+    "async": "*",
+    "connect-mongo": "*",
+    "jade": "*",
+    "less-middleware": "*",
+    "moment": "*",
+    "mongoose": "*",
+    "underscore": "*",
+    "winston": "*"
+  }
+}
